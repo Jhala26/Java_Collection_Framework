@@ -1,0 +1,66 @@
+package com.masai.setInterface;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+/*		Set interface is an unordered collection means it does not store elements in the insertion order or
+		also not give output in insertion order.
+		-> It also store unique values means it does not allow duplicate elements to store 
+		-> set--HashSet
+		-> set--LinkedHashSet->(Maintain insertion order it supports linkedList(order Maintained in it) + HashSet(Duplicate is not allowed in it)
+		-> set--SortedSet(Interface)--TreeSet  */
+		
+		
+		
+//		Insertion order is not maintained in HashSet collection
+//		Duplicate is not allowed only unique is allowed
+		Set<Integer> hashSet = new HashSet<Integer>();
+		hashSet.add(10);
+		hashSet.add(30);
+		hashSet.add(5);
+		hashSet.add(9);
+		hashSet.add(5);
+		hashSet.add(15);
+
+		
+		System.out.println("hashSet : " + hashSet);
+		
+		
+//		toArra() return the array of object[] arr from the set collection
+		Object[] arr = hashSet.toArray();
+		
+		for(int i=0;i<arr.length;i++) {
+			System.out.print(arr[i]+" ");
+		}
+		
+		
+		System.out.println("\n return the class of object : " + hashSet.getClass());
+		
+		
+		
+		
+//		LinkedHashSet Follows insertion order according to LinkedList in List collection And 
+//		Didn't allow Duplicate value to store because of set Interface
+		
+		LinkedHashSet<Integer> llSet = new LinkedHashSet<Integer>();
+		llSet.add(5);
+		llSet.add(2);
+		llSet.add(2);
+		llSet.add(10);
+		llSet.add(16);
+		llSet.add(10);
+		
+		System.out.println(llSet);
+		
+		
+		
+		
+
+	}
+
+}

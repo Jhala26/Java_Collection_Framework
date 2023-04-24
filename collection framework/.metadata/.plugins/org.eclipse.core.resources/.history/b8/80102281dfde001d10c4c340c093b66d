@@ -1,0 +1,20 @@
+package com.masai.listInterface;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List lst = new ArrayList();
+		
+		lst.add(10);
+		lst.add(20);
+		lst.add(30);
+		
+		lst.add(1, 15);
+		lst.add("Anshul");
+		
+		System.out.println(lst);
+	}
+
+}

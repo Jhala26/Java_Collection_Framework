@@ -1,0 +1,37 @@
+package com.masai.setInterface;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+/*		Set interface is an unordered collection means it does not store elements in the insertion order or
+		also not give output in insertion order.
+		-> It also store unique values means it does not allow duplicate elements to store 
+		-> set--HashSet
+		-> set--LinkedHashSet->(Maintain insertion order it supports linkedList(order Maintained in it) + HashSet(Duplicate is not allowed in it)
+		-> set--SortedSet(Interface)--TreeSet  */
+		
+		
+		
+		
+		Set<Integer> set = new HashSet<Integer>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

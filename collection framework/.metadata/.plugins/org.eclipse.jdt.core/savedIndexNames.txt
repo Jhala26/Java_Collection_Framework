@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\masai_All\core java practice\collection framework\.metadata\.plugins\org.eclipse.jdt.core
+1139297782.index
+1865797976.index
+3224041815.index

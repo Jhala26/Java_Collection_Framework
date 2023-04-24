@@ -1,0 +1,18 @@
+package com.masai.setInterface;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+//		Set interface is an unordered collection means it does not store elements in the insertion order or
+//		also not give output in insertion order
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
